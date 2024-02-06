@@ -6,7 +6,6 @@ pipeline {
         }
 
         stages {
-                       }
             stage('Compile') {
                 steps {
                     // Run Maven on a Unix agent.
